@@ -1,24 +1,46 @@
-# README
+# Rails 7 Steno Demo Blog Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the codebase for the blog application created during the [Rails 7: The
+Steno Demo][] video.
 
-Things you may want to cover:
+It is the same application created by [David Heinemeier Hansson][], during his
+[Rails 7: The Demo][] video.
 
-* Ruby version
+Artefacts from the steno demo itself can be found in the [`demo/`][] directory.
 
-* System dependencies
+## Dependencies
 
-* Configuration
+[Ruby][] 3.1.1
+[Rails][] 7.0.2.2
 
-* Database creation
+## Setup
 
-* Database initialization
+```sh
+git clone https://github.com/paulfioravanti/rails7_steno_demo.git
+cd rails7_steno_demo
+bundle install
+bin/rails db:create
+bin/rails db:migrate
+```
 
-* How to run the test suite
+## Run
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+bin/rails server
+```
 
-* Deployment instructions
+Open <http://localhost:3000> in a web browser.
 
-* ...
+## Deployment
+
+The application is currently deployed on [Heroku][] at the following address:
+
+<https://rails7-steno-demo.herokuapp.com/>
+
+[David Heinemeier Hansson]: https://twitter.com/dhh
+[`demo/`]: ./demo
+[Heroku]: https://heroku.com/
+[Rails]: https://rubyonrails.org/
+[Rails 7: The Steno Demo]: #
+[Rails 7: The Demo]: https://www.youtube.com/watch?v=mpWFrUwAN88
+[Ruby]: https://www.ruby-lang.org/en/

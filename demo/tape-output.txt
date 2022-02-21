@@ -1,0 +1,2955 @@
+       RA  EU    L  S  
+  T P H     U          
+  TK     O EU  P L     
+  TK       EU          
+          *            
+          *            
+  TK     O EU    L     
+          *            
+  TK     O EU  P L     
+       R      R        
+   K   R  *          D 
+  TK     O EU  P L     
+       R      R        
+  T P H     U   B G S  
+  T P H     U          
+       R      R        
+       RA  EU    L  S  
+ S K W R   E  RPB  T   
+ S K    A    F   L   D 
+    P    O E F     T   
+  T     AO EU    L T   
+  T P H      F P L T   
+          *            
+ ST P H      F P L T   
+ ST      O    RPB G    
+          *            
+  TK             L  S  
+ ST    R   EU  PB G    
+   K    A   U  PB  T   
+ ST P H      F P L T   
+  TK             L  S  
+  T        E      GT   
+       R      R        
+ S     R   EU  P L     
+       R      R        
+  T P                 Z
+   K   RA  E       T   
+       R      R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+  T P                 Z
+    P    O E F     T   
+       R      R        
+  T P                 Z
+   K   R O    R  L     
+       R      R        
+ ST P H       R      D 
+  T P H       R      D 
+    P          PBLG    
+    P     *    PBLG    
+    P     *    PBLG    
+    P     *    PBLG    
+  T P                 Z
+           EU  PB      
+  TK       E    B G S  
+       R      R        
+ S K             L     
+       RA  EU    L  S  
+  TK            B      
+    P H AO EU     G    
+       R      R        
+       RA  EU    L  S  
+  TK            B      
+   K   RA  E       T   
+       R      R        
+ ST P H         B      
+ ST P H         B      
+       R      R        
+  T P     *       G    
+  T P                 Z
+ S K    AO E   P L     
+   K W RA              
+   K      *   R B      
+          *            
+       R  *   R B      
+          *            
+       R  *E  R B      
+       R      R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H   * U      T D 
+ S K           P       
+          * U          
+ ST P H     U      T D 
+          *            
+ S K           P       
+          * U          
+  T P H   * U      T D 
+       RA  EU    L  S  
+ S           FR        
+       R      R        
+   K   R       P L     
+ ST P H     U      T   
+          *            
+  T P H     U      T   
+          *            
+  T P H   * U      T   
+      HR O E     L     
+      HR O E F     TS  
+          *            
+      H  O E F     T   
+ ST P H      F P L T   
+# T                    
+          *            
+  TK             L  S  
+#                      
+#   P                  
+  T   H     U         Z
+       R      R        
+  TK  HRA     R        
+    PWHRA     R        
+  TKPW  A     R        
+ ST P H           G    
+         O EU          
+    P   A  E F     TS  
+          *            
+    P    O E F     TS  
+       R      R        
+  T P     *            
+ S        *            
+  T P     *            
+        A *            
+  TKP   A *            
+          *            
+   KP   A *            
+      H  O E     L     
+          *            
+      H  O E     L     
+          *            
+      H  O  U    L     
+          *            
+      H  O*E     L     
+     W   O    R  L   D 
+  T P           B G    
+  T     A *     B      
+   KP   A *            
+  T P      EUFR    T   
+    P    O E F     T   
+  T P           B G    
+ S K           P       
+  T P     *            
+  T P     *            
+  T P     *            
+  TK      *            
+ S   W         P       
+ S   W    *        T D 
+  T P                 Z
+       R    U RPB    D 
+          *            
+       R    U  PB    D 
+    P    O E   P   T   
+          *            
+    P    O E F     T   
+       R      R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S K W R O*            
+       R      R        
+    P     *            
+  T     A *     B      
+  TK             L     
+  T                TS  
+ ST    R O     PB G    
+  T     A *     B      
+   KP   A *            
+    P    O E F     T D 
+ ST P H      F P L T   
+  T                TS  
+       R      R        
+  T     AO EU  P L     
+  T     A       B      
+          *            
+  T     A         G    
+  T     A *     B      
+    P    O E F     T   
+    P          P       
+   K   RA  E       T D 
+       R    U  PB    D 
+        A          T   
+  T                TS  
+  TK             L     
+ S        *  F         
+   K   R       P L     
+       R  *E  R B      
+   KP     *EU          
+ S   W             T   
+ S   W             T   
+  T           RP L     
+  T P                 Z
+    P HRA *EU   B G S  
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+       R      R        
+ ST P H         B      
+ S K W R O*            
+    P   A *  F     T   
+ S        *  F         
+ S   W         P       
+       R  *E  R B      
+  T P     *            
+        A *            
+  T P     *            
+  TK      *            
+  TKPW  A     R        
+ ST P H           G    
+    P          P       
+ S K W R O   F PB      
+       R      R        
+ S   W         P       
+  T P                 Z
+   K   R O    R  L     
+       R      R        
+    P          PBLG    
+    P          PBLG    
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+  T P                 Z
+    P    O E F     T   
+       R      R        
+ ST P H  O*            
+ S K           P       
+          * U          
+ ST P H  O*            
+ S K           P       
+          * U          
+ S K W R O*            
+ S     RA        L     
+  TK    A  EU        DZ
+          *            
+  TK    A  EU      TS  
+    P  R   E   PB   S  
+             F         
+  T     A *     B      
+  T     AO EU    L T   
+  T                TS  
+  TK             L     
+ S        *  F         
+ S   W         P       
+    PW  A *     B G    
+  TK      *            
+  T P     *            
+ S        *            
+  T P     *            
+  TK      *            
+   KP   A *            
+    P      EUF    G    
+          *            
+    P H    EUF    G    
+  T     AO EU    L T   
+  T P           B G    
+ S K           P       
+  T P     *            
+  T P     *            
+ S   W         P       
+  T P                 Z
+  T P         RP L     
+          *            
+  T P         RP L     
+          *            
+  T P      E  RP L     
+          *            
+  T P    O    RP L     
+       R      R        
+  T P H   *   R      D 
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+       R      R        
+  TKPW    *            
+  TKPW    *            
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+  T P                 Z
+   K   R O    R  L     
+       R      R        
+ ST P H       R        
+ ST P H       R        
+  T P H       R      D 
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ S     R  *    P       
+ S     R  *    P       
+ S     R  *    P       
+ S     R  *    P       
+  T P                 Z
+  T P    O    RP L     
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+          *EU          
+   KP     *            
+ S        *  F         
+ S   W         P       
+       R  *E  R B      
+ S K W    *            
+    P    O E F     T   
+       R      R        
+    P    O E F     T   
+  TK             L  S  
+   KP     *            
+       R      R        
+ S   W         P       
+  T P H   * U      T D 
+       RA  EU    L  S  
+ S K     O*      L     
+   KP   A *            
+    P    O E F     T   
+    P          P       
+  T P      EUFR    T   
+       R      R        
+   KP   A *            
+    P    O E F     T   
+    P          P       
+   K   RA  E       T   
+    P  R      RPB      
+          *            
+    P  R       PB      
+    P   AO EU    L T   
+          *            
+  T     AO EU    L T   
+ ST P H      F P L T   
+   K   R          G S  
+          *            
+   K W            G S  
+   KP   A *            
+  T P  R O     P L     
+                   T   
+ S K     O*      L     
+   K   R          G S  
+              R B G S  
+   K    A   U   B  T   
+          *            
+   K    A   U  PB  T   
+ ST P H      F P L T   
+   K   R  *       G S  
+          *            
+   K   R          G S  
+          *            
+                  G    
+          *            
+   K W            G S  
+   KP   A *            
+   KP   A *            
+  T P H    EU       S  
+          *            
+  T P H AO EU       S  
+  T P           B G    
+   K   R          G S  
+  TK   R  *    PB      
+          *            
+    P  R  *    PB      
+       R      R        
+   KP   A *            
+    P    O E F     T   
+    P          P       
+        A   U    L     
+       R      R        
+   KP   A *            
+    P    O E F     T   
+    P          P       
+     W        R        
+    P  R       PB      
+   K   RA  E       T D 
+       R    U  PB    D 
+        A          T   
+ ST P H      F P L T   
+ S             P       
+   KP   A *            
+  T P   AO EU  P L     
+          *            
+  T     AO EU  P L     
+    P          P       
+    P H  O  U          
+          *            
+  T P H  O  U          
+  T            P       
+          *            
+    P          P       
+        A   U    L     
+       R    U  PB    D 
+  TK    A  EU          
+    P  R  *    PB      
+       R      R        
+ ST P H         B      
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H           G    
+   K W R   E         D 
+    P          P       
+       R      R        
+ ST P H         B      
+    P          P       
+  T      O             
+       R    U  PB    D 
+ S K      *      L     
+          *            
+ S K W           L     
+          *            
+ S K W    *      L     
+       R      R        
+   K   R       P L     
+   K   R       P L     
+  T           RP L     
+ S   W             T D 
+ S K             L     
+       RA  EU    L  S  
+          *     B G S  
+  T        E      GT   
+  T P H A   U    L     
+          *            
+ ST P H A   U    L     
+       R      R        
+    PW     E   PB  T   
+          *            
+    PW      U  PB  T D 
+          *            
+    PW      U  PBL   D 
+       R      R        
+       RA  EU    L  S  
+  TK            B      
+    P H A  EU     G    
+          *            
+    P H AO EU     G    
+       R      R        
+  T P     *       G    
+  T P                 Z
+    P    O E F     T   
+       R      R        
+ S K W R O*            
+      H A           S  
+       R   EUF P       
+                  G    
+          *            
+  T        E      GT   
+  T     A *     B      
+   K    A   U  PB  T   
+  T                TS  
+  TK             L     
+ S        *  F         
+ S   W         P L     
+ S K           P       
+          * U          
+   K   R       P L     
+ S   W         P       
+  T P                 Z
+  T P    O    RP L     
+ ST P H         B      
+       R      R        
+#S                 T   
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+          *EU          
+       R   EUF P       
+          *            
+  TK             L  S  
+       R   EUF P       
+       R    U  PB    D 
+ S        *  F         
+  TKPW    *            
+  TKPW    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+ ST P H   *            
+   KP     *            
+ S        *  F         
+ S   W             T D 
+   K  HR  *     B G    
+ ST P H         B      
+       R      R        
+   K   R       P L     
+       R  *E  R B      
+  TK      *            
+  T P     *            
+        A *            
+   KP   A *            
+  T   H             S  
+          * U RP       
+      H    EU R B      
+          *            
+       R   EUF P       
+  T P           B G    
+  T     A *     B      
+   KP   A *            
+     W    *E    B G    
+        AO  U       S  
+       R   EUF P       
+  T        E      GT   
+  T P           B G    
+     W    *          D 
+     W    *          D 
+     W    *          D 
+     W    *          D 
+ S    HR             D 
+   KP H         B      
+     W               D 
+ S    HR  *          D 
+   KP H   *EU          
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+   KP   A *            
+       RA  EU    L     
+          *            
+       RA  EU    L  S  
+    PW   O E           
+          *            
+      HR O E           
+  TKPW   O             
+          *            
+  TKPW   O E           
+ S K           P       
+ S K           P       
+  T P     *            
+ S        *            
+    P          PBLG    
+  T P     *            
+ S        *            
+  T           RP L     
+ S   W             T D 
+       R   E           
+      HR O E         D 
+          *            
+      HRAO           D 
+  T P           B G    
+       R      R        
+    P H   *E     L     
+          *            
+   K  HR    U          
+          *            
+  TK             L  S  
+   K  HR    U          
+ S             P       
+   KP H   *E     L     
+          *     B G S  
+          *            
+   KP   A *            
+          *     B G S  
+ S     RAO  U          
+ ST P H      F P L T   
+ ST P H      F P L T   
+      H    E   P       
+          *E  R     S  
+ ST P H      F P L T   
+ ST P H      F P L T   
+  T        E      GT   
+      H    E  RP       
+          *            
+      H    E   P       
+          *E  R        
+       R      R        
+       R     F     T   
+    P   AO E F     T   
+          *            
+  TK             L  S  
+    P    O E F     T   
+   K W           L     
+   KP   A *            
+    P    O E F     T   
+          *            
+ S             P       
+    P    O E F     T   
+          *            
+   KP   A *            
+    P    O E F     T   
+       R        B      
+          *            
+    P          P       
+  T P      EU  PB    D 
+    P  R  *   RPB      
+          *            
+    P  R  *    PB      
+          *            
+    P  R       PB      
+#S                     
+    P  R  *    PB      
+       R      R        
+    P    O E F     T   
+    P          P       
+        A   U    L T D 
+          *            
+        A   U  P   T D 
+    P  R  *    PB      
+          *            
+    P  R       PB      
+ ST P H      F P L T   
+     W   O  U  PB  T   
+          *            
+   K     O  U  PB  T   
+          *            
+   K    A   U  PB  T   
+  TK         F P    S  
+              R B G S  
+ S         EU  P L     
+          *            
+ S        *EU  P L     
+       R    U  PB    D 
+  T P    O    RP L T   
+    P  R  *    PB      
+          *            
+    P  R       PB      
+    P    O E F     T   
+    P          P       
+       RA  E         D 
+       R    U  PB    D 
+  T    R      R    T   
+          *            
+    P  R      R    T   
+          *            
+    P  R        B  T   
+          *            
+  T    R        B  T   
+    P  R  *    PB      
+          *            
+    P  R       PB      
+ ST P H      F P L T   
+  TK             L  S  
+   K    A   U  PB  T   
+    P     *    PB      
+          *            
+    P     *    PB      
+          *            
+    P  R  *    PB      
+    P  R  *    PB      
+    P  R  *    PB      
+       R      R        
+ ST P H         B      
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+          *            
+ ST P H      F P L T   
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+          *            
+       R      R        
+   K   R       P L     
+       R  *E  R B      
+       R  *E  R B      
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+ S   W         P       
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H   *            
+          *            
+# T                    
+       R      R        
+ ST P H         B      
+ ST P H         B      
+       R      R        
+   K   R       P L     
+       R  *E  R B      
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+  T           RP L     
+ S   W             T D 
+  T P                 Z
+           EU  P L     
+    P    O    R    T   
+ ST P H         B      
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ ST P H       R        
+ S K           P       
+  T P                 Z
+    P HRA *EU   B G S  
+ ST P H         B      
+       R      R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ ST P H       R        
+ S K           P       
+   K   R       P L     
+  T           RP L     
+ S K             L     
+           EU  P L     
+    P   AO    R    T   
+          *            
+    P    O    R    T   
+    P H A *    PB      
+          *            
+    P H A      P       
+    P H A *            
+    P H A *    P       
+          *            
+          *            
+          *            
+    P H A *    P       
+    P   A  EU  PB      
+          *   R        
+           EU  PB      
+          *            
+          *            
+          *            
+    P      EU  PB      
+      HR O E     L     
+    P          PB      
+          *            
+      H        PB      
+  T     AO EU  P L     
+       R      R        
+  T P     *       G    
+  T P                 Z
+           EU  P L     
+ ST P H         B      
+       R      R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+  T P                 Z
+    P HR O*EU   B G S  
+          *            
+    P HRA *EU   B G S  
+ ST P H         B      
+       R      R        
+ S K W R O*            
+       R      R        
+           EU  P L     
+    P   A     R    T   
+          *            
+    P    O    R    T   
+  TK    A   U    L T   
+  T     A *     B      
+  TKP   A *            
+          *            
+   KP   A *            
+      HR O E     L     
+   KP   A *            
+  T P   AO EU  P L     
+          *            
+  T     AO EU  P L     
+  T                TS  
+    P    O E     L     
+          *            
+  T      O E     L     
+          *            
+      HR O E     L     
+      H        PB      
+  T     AO EU  P L     
+  T                TS  
+       R      R        
+   KP   A *            
+      HR O E     L     
+   KP   A *            
+  T     AO EU  P L     
+    P          P       
+ ST     A     R    T   
+    P  R  *    PB   S  
+          *            
+    P  R  *E   PB   S  
+ S             P       
+  TK         F P       
+          *            
+    PW       F P       
+ S        *  F         
+  T P                 Z
+    P    O E F     T   
+          *            
+       R    U  PB    D 
+    P    O E   P   T   
+          *            
+    P    O E F     T   
+       R      R        
+ S     R  *    P       
+ S     R  *    P       
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+ ST P H   *            
+          *EU          
+              R B G S  
+   K W           L T   
+          *            
+   K W            G S  
+  TK     O             
+          *            
+  TK    A              
+  T      O             
+          *            
+  T     A              
+      H        PB      
+       R O E     L     
+          *            
+      HR O E     L     
+   K   R          G S  
+ ST P H      F P L T   
+   K W            G S  
+  T P   AO EU  P L     
+          *            
+  T     AO EU  P L     
+      H        PB      
+        A         G    
+   K   R          G S  
+ S        *  F         
+ S        *  F         
+   K   R       P L     
+       R  *E  R B      
+  T           RP L     
+ S K             L     
+       R O*E  R    T   
+          *            
+    P  R O*E  R    T   
+          *            
+    P  R O*   R    T   
+    P H A      P       
+          *            
+    P H A *    P       
+    P      EU  PB      
+      HR O E     L     
+    P          PB      
+          *            
+      H        PB      
+  T     AO EU  P L     
+  TK  HR  *            
+       R      R        
+  T P     *       G    
+  T P                 Z
+       R O*   R    T   
+          *            
+           EU  P L     
+    P    O    R    T   
+ ST P H         B      
+       R      R        
+ S     R  *    P       
+ S     R  *    P       
+   K   R       P L     
+       R  *E  R B      
+  T           RP L     
+ S K             L     
+       RA  EU    L  S  
+ S K W R   E   PB  T   
+          *            
+ S K W R   E  RPB  T   
+       R O    R     S  
+          *            
+ S     R O    R     S  
+   KP H    E   PB  T   
+    P    O E F     T   
+ ST P H      F P L T   
+       R   E FRPB   S  
+                    S  
+          *            
+  TK         F P    S  
+                    S  
+   K    A   U  PB  T   
+ ST P H      F P L T   
+  TK             L  S  
+  T        E      GT   
+       R      R        
+  T P     *       G    
+  T P                 Z
+   K   RA  E       T   
+       R  *E  R B      
+ ST P H         B      
+       R      R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S K             L     
+       RA  EU    L  S  
+    PW          B      
+          *            
+  TK            B      
+    P H AO EU     G    
+       R      R        
+  T P     *       G    
+  T P                 Z
+    P    O E F     T   
+       R      R        
+ S K W R O*    P       
+ S K           P       
+          * U          
+ S K W R O*            
+      H A           S  
+    P H A  E   PB      
+  T     A *     B      
+   KP H    E   PB  T   
+  T                TS  
+  TK             L     
+ S        *  F         
+  T P                 Z
+   KP H    E   PB  T   
+       R      R        
+ S   W             T D 
+ S   W             T D 
+       R   E           
+      HRAO           D 
+  T P           B G    
+       R      R        
+    P    O E F     T   
+          *            
+  TK             L  S  
+      H  O E F     T   
+          *            
+    P    O E F     T   
+   K W           L     
+   KP   A *            
+   KP   A *            
+    P    O E F     T   
+          *            
+ S             P       
+    P    O E F     T   
+          *            
+   KP   A *            
+    P    O E F     T   
+    P          P       
+  T P      EUFR    T   
+       R      R        
+    P    O E F     T   
+    P          P       
+   KP H    E   PB  TS  
+       R      R        
+ ST P H         B      
+    P          P       
+   K   RA  E       T D 
+          *            
+   K   RA  E       T   
+    P     *    PB      
+   K    A   U  PB  T   
+ ST P H      F P L T   
+   K   R          G S  
+          *            
+   K W            G S  
+   KP   A *            
+  T P      EUFR    T   
+   KP H    E       TS  
+          *            
+   KP H    E   PB  TS  
+          *            
+   KP H    E   PB  T   
+  T P             G S  
+          *            
+  T P             G S  
+          *            
+  T P           B G    
+   K   R          G S  
+    P  R  *    PB      
+       R      R        
+ ST P H         B      
+ ST P H         B      
+       R      R        
+ ST P H         B      
+    P          P       
+  T P      EUFR    T   
+   K  HR   E           
+   K  HRA *            
+   K  HRA *            
+   K  HRA *            
+   KP H    E   PB  T   
+ S             P       
+   K W  A        L     
+          *            
+   K W           L     
+      H        PB      
+          *            
+ S             P       
+       R      R        
+   KP H    E   PB  T   
+    P          P       
+    P    O E F     T   
+       R      R        
+ S   W             T D 
+  T P                 Z
+    P    O E F     T   
+ S    H  O E           
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ S K W R O*            
+       R   E   PB    D 
+          *            
+       R   E  RPB    D 
+    P   A     R BL     
+ ST P H A      PB   S  
+  T     A *     B      
+    P    O E F     T   
+                    S  
+         O EU          
+   KP H    E   PB  TS  
+  T                TS  
+    P   A  E F     T   
+          *            
+    P    O E F     T   
+  T                TS  
+  T                TS  
+  T                TS  
+ S             P       
+  TK         F P       
+          *            
+    PW       F P       
+ S        *  F         
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+  T P H       R      D 
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+       R  *            
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+    P H   *            
+        A *            
+       R    U  PB    D 
+   KP H    E   PB  TS  
+    P          P       
+      H AO E   P L T   
+      H        P       
+          *            
+    P          P       
+          *E  R B      
+       R      R        
+       R      R        
+          *EU          
+      H    E      G  D 
+  TK         F P    S  
+# T                    
+  T     A *     B      
+  TK             L     
+  T                TS  
+   KP   A *            
+   KP H    E   PB  TS  
+  T                TS  
+       R      R        
+       R      R        
+  TK      *EUF         
+  T     A *     B      
+  TK               TS  
+ S K           P       
+          * U          
+  T                TS  
+  T                TS  
+  T                TS  
+  T                TS  
+  TK      *            
+  TK      *            
+  TK      *            
+  TK      *            
+  TK      *            
+  TK      *            
+ S K W R O*            
+  TK      *EUF         
+  T     A *     B      
+  T                TS  
+  T                TS  
+   KP H    E   PB  TS  
+  T                TS  
+  TK             L     
+  T                TS  
+       R   E  RPB    D 
+ S     RA     R        
+  T     A *    PB      
+          *            
+  T     A *     B      
+    P    O E F     T   
+    P          P       
+   KP H    E   PB  TS  
+  T                TS  
+       R      R        
+          *E  R B      
+   KP H    E   PB  TS  
+          *            
+   KP H    E   PB  T   
+  T     A *     B      
+       R   E   PB    D 
+          *            
+       R   E  RPB    D 
+  T     A     R BL     
+          *            
+    P   A     R BL     
+   K  HR   E    B G S  
+  T     A *     B      
+   KP H    E   PB  TS  
+         O EU          
+   KP H    E   PB  T   
+  T                TS  
+    P    O E F     T   
+    P          P       
+   KP H    E   PB  TS  
+  T                TS  
+ S K           P       
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+  TK      *    P       
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ ST P H       R        
+ S     R  *    P       
+ S K           P       
+ S K W R O*            
+       R      R        
+       R   E  RPB    D 
+    P   A  E  R BL     
+ S     RA     R        
+  T     A *     B      
+   KP H    E   PB  TS  
+         O EU          
+  T P H     U          
+  T                TS  
+    P   A  E F     T   
+          *            
+    P    O E F     T   
+  T                TS  
+  T                TS  
+ S        *  F         
+   K  HR  *            
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+       R      R        
+       R      R        
+ S     R  *    P       
+ S     R  *    P       
+    P H   *            
+        A *            
+       R    U  PB    D 
+   KP H    E   PB  T   
+    P          P       
+      H AO E   P L T   
+      H        P       
+          *            
+    P          P       
+          *E  R B      
+       R      R        
+       R      R        
+ ST P H       R        
+       R      R        
+          *EU          
+  TK      *EUF         
+  TK         F P    S  
+  T     A *    PB      
+          *            
+  T     A *     B      
+  T                TS  
+  T                TS  
+  TK     O E   P L     
+          *            
+  TK     O E   P L     
+          *            
+  TK     O*E   P L     
+          *            
+  TK     O     P L     
+           EU        D 
+    P   A *     B      
+          *            
+  T     A *     B      
+   KP H    E   PB  T   
+  T                TS  
+  T                TS  
+  TK             L     
+  T                TS  
+          *E  R B      
+   KP      E    B G    
+  T     A *     B      
+   KP H    E   P   T   
+          *            
+   KP H    E   PB  T   
+    P          P       
+   K    A   U  PB  T   
+  T                TS  
+       R      R        
+    P          PB      
+          *            
+      H        PB      
+ S             P       
+  T     AO EU  P L     
+  T     A *     B      
+          *            
+    PW       F P       
+    PW       F P       
+  T     AO EU  P L     
+          *            
+ S             P       
+  T     AO EU  P L     
+  T     A *     B      
+          *            
+    PW       F P       
+    PW       F P       
+ S             P       
+  T     AO EU  P L     
+  T     A *       G    
+          *            
+  T     A         G    
+  T     A *     B      
+   KP H    E   PB  T   
+    P          P       
+   K   RA  E       T D 
+       R    U  PB    D 
+        A          T   
+  T                TS  
+  T                TS  
+   K   R          G S  
+  TK    A              
+  T      O             
+          *            
+          *            
+  TK             L  S  
+  TK    A              
+  T      O             
+          *            
+  TK    A              
+          *            
+  T     A              
+      H        PB      
+      HR O E     L     
+   K   R          G S  
+  T                TS  
+   K W            G S  
+  T     AO EU  P L     
+    P          PB      
+          *            
+      H        PB      
+        A         G    
+   K   R          G S  
+  T                TS  
+ S        *  F         
+   K  HR  *            
+ ST P H         B      
+    P H   *            
+        A *            
+  T P H     U          
+          *            
+  TK             L  S  
+  T P H     U          
+          *            
+       R    U  PB    D 
+  T P H     U          
+    P          P       
+      H AO EU  P L T   
+          *            
+      H AO E   P L     
+          *            
+      H AO E   P L T   
+      H        P       
+          *            
+    P          P       
+       R  *E  R B      
+          *            
+          *            
+    P          P       
+          *E  R B      
+       R      R        
+       R      R        
+   K  HR  *            
+    P H   *            
+    P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+   KP     *            
+  T P H           G    
+          *            
+    PW       F P       
+ ST P H           G    
+  TK         F P       
+          *            
+    PW       F P       
+       R      R        
+   K W R  *            
+       R      R        
+          *EU          
+  T P    O    RP L     
+  TK         F P    S  
+     W                 
+        A              
+ S      AO    R B  T D 
+          *            
+ S       O E  R B  T D 
+    P H  O E     L   D 
+          *            
+    P H  O*E     L   D 
+  T     A *     B      
+    P    O E F     T   
+  T                TS  
+   KP   A *            
+   KP H    E   PB  T   
+    P          P       
+  T P H     U          
+  T                TS  
+    PW R  *            
+          *            
+   KP   A *            
+   KP   A *            
+   K W R    U R        
+   KP H    E   PB  T   
+ ST P H      F P L T   
+    PW R  *            
+       R      R        
+ S             P       
+ S             P       
+  T P    O    RP L     
+  T        E      GT   
+   K W RA *E  R        
+  T     A *    PB      
+          *            
+  T     A *     B      
+  TK    A   U  PB  T   
+          *            
+  TK    A   U  PB  T   
+          *            
+    PW  A   U  PB  T   
+          *            
+   K    A   U  PB  T   
+  T                TS  
+  T                TS  
+ S      AO EU         Z
+  T                TS  
+   K   R          G S  
+# T      O             
+          *            
+  TK             L  S  
+# T      O             
+   KP     *            
+#       A              
+   K   R          G S  
+ S        *  F         
+  T                TS  
+ S K W R O*            
+  T P    O    RP L     
+ S  P H    EU      T   
+  T     A *     B      
+ S        *  F         
+  T P                 Z
+       R    U  PB    D 
+    P    O E F     T   
+       R      R        
+ ST P H       R        
+         O*            
+       R      R        
+    P     *            
+    P   A *     B      
+          *            
+  T     A *     B      
+  TK             L     
+  T                TS  
+ ST    R O     PB G    
+  T     A *     B      
+    P HR    U R  L     
+        AO EU         Z
+  T     A *     B      
+    P    O E F     T   
+    P          P       
+   KP H    E   PB  TS  
+    P          P       
+   K     O  U  PB  T   
+  T                TS  
+  T                TS  
+  T       *        TS  
+   KP H    E   PB  T   
+  T                TS  
+  TK             L     
+  T                TS  
+ S        *  F         
+  T P                 Z
+   K   R O    R  L     
+ ST P H         B      
+ ST P H         B      
+       R      R        
+  TK      *            
+  TK      *            
+  TK      *            
+  TK      *            
+  TK      *            
+          *EU          
+          *EU          
+          *EU          
+   K   R O    R  L     
+  TK         F P    S  
+ S    HRA           S  
+          *            
+   K  HRA           S  
+  T     A *     B      
+   KP   A *            
+   KP H    E   PB  T   
+  T                TS  
+    P    O E F     T   
+  T                TS  
+  T                TS  
+  T                TS  
+   K    A   U  PB  T   
+  T                TS  
+  TK         F         
+  T     A *     B      
+   K   RA  E       T   
+  T                TS  
+  TK             L     
+  T                TS  
+   K W RA          T   
+    P   A  E F     T   
+          *            
+    P    O E F     T   
+    P          P       
+   KP H    E   PB  TS  
+             F P L T   
+          *            
+    P          P       
+   K   RA  E       T   
+    P  R  *    PB      
+          *            
+    P  R       PB      
+   KP H    E   PB  T   
+       R    U  PB    D 
+    P  RA      P L  S  
+          *            
+    P  RA      P L     
+          *            
+    P  RA *    P L     
+                    S  
+    P  R  *    PB      
+       R      R        
+       R   E           
+  TK       EUFR    T   
+          *            
+  TK   R   E    B GT   
+ ST P H A      PB   S  
+  T     A *     B      
+    P    O E F     T   
+ S        *  F         
+  T P                 Z
+       R O E       TS  
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+  TK      *            
+  TK      *            
+    P     *            
+          *EU          
+ S             P       
+ S             P       
+ S K           P       
+ ST P H         B      
+        A *    P       
+  TK     O             
+ ST P H       R        
+ ST P H           G    
+ ST P H           G    
+       R      R        
+           E   PB    D 
+ S        *  F         
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+   KP H        PB  T   
+    P     *            
+    P     *            
+          * U          
+          * U          
+     W    *            
+     W    *            
+   K   R  *            
+     W    *            
+    P   A  E F     TS  
+          *            
+  TK             L  S  
+    P    O E F     TS  
+ S           F         
+          *            
+ S        *  F         
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ S     R  *    P       
+ S     R  *    P       
+   K   R       P L     
+       R  *E  R B      
+ ST P H       R        
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+    P     *    PBLG    
+    P     *    PBLG    
+  T P     *            
+ S        *            
+  T           RP L     
+ ST P H   *            
+   K  HR  *            
+    P H   *            
+    P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+       R    U  PB    D 
+       R      R        
+   K W R  *            
+   K   R       P L     
+       R  *E  R B      
+    P          PBLG    
+    P          PBLG    
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+  TK      *            
+  T P     *            
+        A *            
+   KP   A *            
+      HR   E       TS  
+  TK     O             
+     W      U  PB      
+   KP H    E   PB  T   
+  T P           B G    
+ S K           P       
+  T P     *            
+  TK      *            
+    P          PBLG    
+    P          PBLG    
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+  T           RP L     
+ S   W             T D 
+   KP H  O*E         D 
+    P     *    PBLG    
+    P     *    PBLG    
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ S     R  *            
+ ST P H       R        
+ ST P H       R        
+ S     R  *            
+ S     R  *    P       
+ S     R  *            
+ ST P H       R        
+ S     R  *            
+ ST P H       R        
+ ST P H       R        
+ S     R  *            
+ S     R  *            
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ S     R  *            
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+              R        
+              R        
+ ST P H       R        
+ S     R  *    P       
+ S     R  *    P       
+   K W    *EU          
+ S   W    *        T D 
+ S K             L     
+       RA  EU    L  S  
+ S K W R   E   PBL T   
+          *            
+ S K W R   E   PB  T   
+          *            
+ S K W R   E  RPB  T   
+    P H A  EU R  L     
+          *            
+    P H A  EU    L     
+          *E  R        
+   KP H    E   PB  TS  
+ S  P H    EU      T D 
+       R      R        
+  T P     *       G    
+  T P H       R      D 
+  T P                 Z
+   KP H    E   PB  TS  
+          *E  R B      
+          *            
+       R  *E  R B      
+ ST P H         B      
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+        A *            
+    P  R       PB      
+   KP H    E   PB  T   
+       R  *    PB      
+          *            
+    P  R  *    PB      
+ S K           P       
+ ST P H       R        
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+   K   R  *            
+     W    *            
+   KP H    E   PB  T   
+  TK         F P    S  
+ S K           P       
+     W    *            
+     W    *            
+  TK      *    P       
+        A *            
+   KP H    E   PB  T   
+  TK         F P    S  
+ ST P H       R        
+ ST P H       R        
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+    PW       F P       
+    PW       F P       
+ S K W R               
+ S K W         P       
+          * U          
+ S K           P       
+          * U          
+   K   R  *            
+     W    *            
+    PW   O        G    
+          *            
+  TK             L  S  
+  TKPW   O        G    
+          *            
+    PWHR O        G    
+    P          PB      
+          *            
+      H        PB      
+         O E  RPB      
+ S K           P       
+        A *    P       
+              R B G S  
+   K        U   B  T   
+          *            
+ S          U   B  T   
+ ST P H      F P L T   
+   K   R          G S  
+          *            
+   K W            G S  
+   KP   A *            
+  T P H     U          
+   KP H    E   PB  T   
+  T P           B G    
+   K   R          G S  
+ S        *  F         
+ S   W         P       
+ S  P          PB  T   
+ S K           P       
+          * U          
+ S  P HR           T   
+  T P                 Z
+ S  P H    EU      T D 
+ ST P H         B      
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+   K   R  *            
+ S K W    *            
+  T       *            
+   KP   A *            
+            U          
+  TKPW   O         T   
+        A  EU          
+  T P H     U          
+   KP H    E   PB  T   
+         O     PB      
+          *E  R B      
+   KP      E    B G    
+  T     A *     B      
+   K W R           T   
+          *            
+   K W RA          T   
+   KP H    E   PB  T   
+    P          P       
+    P    O E F     T   
+    P          P       
+  T     AO EU    L T   
+  T                TS  
+ S           F         
+          *            
+ S K           P       
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+  TK      *            
+  TKPW    *    P       
+ S K W R O*            
+       R      R        
+       R   E  RPB  T   
+          *            
+       R   E   PB    D 
+          *            
+       R   E  RPB    D 
+ ST P H A      PB   S  
+  T     A *     B      
+  T                TS  
+   KP H    E   PB  T   
+  T                TS  
+ S        *  F         
+ S  P HR           T   
+  T P                 Z
+ S  P H    EU      T D 
+       R      R        
+   K  HR        B      
+  TKPW    *            
+  TKPW    *            
+   K W R  *            
+   K W R  *            
+   K  HR      R        
+ ST P H         B      
+ ST P H         B      
+    P     *            
+ ST P H         B      
+  TK      *            
+  TK      *            
+          *            
+   KP     *            
+   KP     *            
+   KP     *            
+   KP     *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+ ST P H           G    
+ ST P H           G    
+  TK      *    P       
+        A *            
+ ST P H      F P L T   
+ S K           P       
+  TKPW    *            
+ ST P H       R        
+  TK      *            
+  TK      *            
+ S K W R O*            
+          *E  R B      
+   KP      E    B G    
+    P   A *     B      
+          *     B      
+  T     A *     B      
+          *            
+          *            
+          *            
+  TKP      E    B G    
+          *            
+   KP      E    B G    
+          *            
+  TK             L  S  
+   KP      E    B G    
+  T     A *     B      
+                   T   
+          *            
+   K W RA          T   
+   KP H    E   PB  T   
+    P          P L     
+   K    A   U  PB  T   
+          *            
+   K    A   U  PB  T   
+          *            
+  TK             L  S  
+   K    A   U  PB  T   
+ S        *  F         
+   K W    *EU          
+   K W    *EU          
+  T P                 Z
+    P HRAO E F         
+          *            
+    P HRAO*E F         
+          *            
+    P  RAO*E F         
+          *            
+    P  RAO E F         
+          *            
+    P  RAO   F         
+          *            
+    P  R   E F         
+          *            
+    P  RAO  U          
+          *            
+    P  RAO E F         
+          *            
+    P     *            
+       R  *            
+         O*            
+          *            
+ S K      *            
+ S     R  *            
+       R      R        
+        A *            
+    P  R       PB      
+   KP   A *            
+   KP H    E   PB  T   
+    P          P       
+  T P      EUFR    T   
+    P     *    PB      
+          *            
+    P  R  *    PB      
+ S        *  F         
+   KP     *EU          
+   K   R       P L     
+  TK  HRA     R        
+  TKPW  A     R        
+    P   A *  F     T   
+       R      R        
+  T           RP L     
+  T P                 Z
+   K   R      R  L     
+          *            
+   K   R O    R  L     
+ ST P H         B      
+ ST P H         B      
+       R      R        
+ ST P H         B      
+ S K W R O*            
+ S K           P       
+ ST P H         B      
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+          *EU          
+   KP H    E   PB  T   
+          *            
+   KP H    E   PB  T   
+  TK         F P    S  
+   K W           L     
+ S             P       
+ ST P H       R        
+ S             P       
+ S             P       
+ S             P       
+ S             P       
+   KP   A *            
+   KP H    E    B  TS  
+          *            
+   KP H    E   PB  TS  
+   KP   A *            
+    P H A  EU R  L     
+          *            
+    P H A  EU    L     
+           E  R        
+          *            
+          *E  R        
+    P          P       
+ S  P H    EU      T D 
+    P     *    PB      
+   KP H    E   PB  T   
+    P     *    PB      
+          *            
+    P     *    PB      
+          *            
+    P     *    PB      
+          *            
+    P  R  *    PB      
+    P          P       
+  TK  HR   EUFR        
+       R    U  PB    D 
+      HRA  EU R    T   
+ S        *  F         
+   K   R       P L     
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+ S K           P       
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+  TK    A *     B G    
+  T P     *            
+  TK      *            
+   KP   A *            
+  TK       E   PB    D 
+          *            
+ S         E    B    D 
+          *            
+ S         E   PB    D 
+        A  EU          
+   KP H    E   PB  T   
+ S     RAO EU          
+   K W RA              
+        AO E           
+    P H    EU    L     
+          *            
+    P H A  EU    L     
+  T P           B G    
+ S K           P       
+  T P     *            
+  TK      *            
+    P          PBLG    
+    P          PBLG    
+  T           RP L     
+ S   W             T D 
+   KP H  O*E         D 
+    P     *    PBLG    
+    P     *    PBLG    
+    P     *    PBLG    
+    P     *    PBLG    
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+ S     R  *            
+ S     R  *            
+ ST P H       R        
+              R        
+              R        
+              R        
+              R        
+              R        
+              R        
+              R        
+ ST P H       R        
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ S     R  *    P       
+   K W    *EU          
+   K   R       P L     
+  TK     O*EUF         
+#   P                  
+#   P                  
+  T P H     U        D 
+  TK     O*E F         
+  TK     O*EUF         
+ ST P H  O  U        D 
+  TK  HR O E           
+ S   W             T   
+ S   W             T   
+ S   W             T   
+ S K           P       
+   K  HR O E           
+ S K           P       
+ ST P H   * U        D 
+  TK     O*EUF         
+#     H                
+#     H                
+   KP     *EU          
+   KP     *EU          
+  T     A *  F     T   
+          *            
+    P   A *  F     T   
+       R      R        
+  TK     O*EUF         
+   KP   A *            
+       R   E  R        
+          *            
+       R  *E  R B      
+   KP   A *            
+       R   E           
+  T P  R   E  R B      
+  T      O             
+ S      AO E           
+  T   H                
+             F P L T   
+ S K           P       
+  TK      *            
+  T P     *            
+  TK      *            
+    P          PBLG    
+    P          PBLG    
+    P          PBLG    
+     W R  *E  R B      
+ S K           P       
+  T           RP L     
+ S   W    *        T D 
+  T P                 Z
+    P HRA *EU   B G S  
+       R      R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ S     R  *    P       
+ S     R  *    P       
+  T P                 Z
+    P    O E F     T   
+ S    H  O E           
+       R      R        
+  TKPW    *            
+  TKPW    *            
+ S K W R O*    P       
+  T         U R B      
+          *            
+  T         U R        
+  TK     O E           
+          *            
+    PW   O E           
+ ST    RAO E   P L     
+  T P  R               
+  T     A *     B      
+    P   A  E F     T   
+          *            
+    P    O E F     T   
+  T                TS  
+  TK             L     
+  T                TS  
+ S K           P       
+ S K W R O*            
+ S        *  F         
+  T P                 Z
+ S  P H    E   PB  T   
+          *            
+   KP H    E   PB  T   
+       R      R        
+ ST P H         B      
+ S K W R O*            
+    PW R O E         D 
+          *            
+    PW RAO           D 
+   K    A    F     T   
+ S                     
+          *            
+                    S  
+  T      O             
+  T     A *     B      
+    P    O E F     T   
+  T                TS  
+  TK             L     
+ S        *  F         
+ S   W         P L     
+ S K           P       
+          * U          
+   K   R       P L     
+   K   R       P L     
+ S   W               D 
+       R  *E  R BL     
+   KP   A *            
+ S                     
+  T   H                
+        A  EU          
+      HRAO EUF         
+          *            
+      HR   EUF         
+   KP H    E   PB  T   
+      H      F         
+ S K           P       
+  T P     *            
+  TK      *            
+  T           RP L     
+ S   W             T D 
+ S   W             T D 
+       R   E           
+      HRAO E         D 
+          *            
+      HRAO           D 
+  T P           B G    
+       R      R        
+  TK     O*EUF         
+#   P                  
+#   P                  
+  T      O*EUF         
+  TK     O*EUF         
+   KP   A *            
+  T      O E F     T   
+          *            
+    P    O E F     T   
+    P          P       
+  T P   AO EU  PB    D 
+    P  R  *   RPB      
+          *            
+    P  R       PB      
+#   P                  
+    P     *     B      
+          *            
+    P     *    PB      
+          *            
+    P     *    PB      
+          *            
+    P          PB      
+          *            
+    P  R  *    PB      
+    P          P       
+   KP H    E   PB  TS  
+       R      R        
+ ST P H         B      
+    P          P       
+      HRA    F     T   
+       R      R        
+ ST P H         B      
+    P          P       
+ STK   R O EU          
+       R      R        
+ ST P H         B      
+          *            
+    PW       F P       
+    PW       F P       
+    PW       F P       
+    PW       F P       
+    PW       F P       
+    PW       F P       
+     W  A   U  P   T D 
+          *            
+  TK             L  S  
+        A   U  P   T D 
+    P     *    PB      
+   K    A   U  PB  T   
+ ST P H      F P L T   
+   K   R          G S  
+          *            
+   K W            G S  
+   KP   A *            
+        A   U  P   T D 
+                     D 
+  T P  R               
+ S K     O       L     
+          *            
+ S K     O       L     
+          *            
+ S K     O*      L     
+  T P           B G    
+   K   R          G S  
+    P  R  *    PB      
+       R      R        
+ S   W    *        T D 
+ S   W    *        T D 
+ S K      *      L     
+ S K           P       
+          * U          
+ S K             L     
+       RA  EU    L  S  
+  T        E F     T   
+       R      R        
+  TK     O*EUF         
+  T P     *            
+  T P     *            
+ S K           P       
+  T      O*EUF         
+  TK     O*EUF         
+  T P     *       G    
+  T P                 Z
+    P    O E F     T   
+       R      R        
+        A *    P       
+              R B G S  
+  TK       E           
+    P      E   PB  T   
+ ST P H      F P L T   
+ ST P H      F P L T   
+          *            
+ S             P       
+ ST P H      F P L T   
+  TK             L  S  
+ STK   R O EU          
+ S        *  F         
+ S K             L     
+ ST P H         B      
+ ST P H         B      
+       R      R        
+  T P     *       G    
+  T P                 Z
+  T     A  EU    L     
+          *E  R        
+ ST P H         B      
+       R      R        
+ S  P HR           T   
+  T P                 Z
+    P H A  EU    L     
+          *E  R        
+ ST P H         B      
+ ST P H         B      
+       R      R        
+   K  HR        B      
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+ ST P H         B      
+ ST P H         B      
+ S  P HR  *        T   
+  T P                 Z
+  T P      EU     G S  
+          *            
+  T P     *EU   B G S  
+          *            
+  T P      EU     G S  
+          *            
+  T P     *EU     G S  
+          *            
+  T P      EU     G S  
+          *            
+  T P      EU   B G    
+          *            
+  T P     *            
+ S K W    *            
+   KP     *            
+ ST P H         B      
+       R      R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+ ST P H         B      
+ ST P H         B      
+ ST P H         B      
+   K  HR  *            
+        A *            
+    P     *    PB      
+   KP H    E   PB  T   
+          *            
+   KP H    E   PB  TS  
+    P     *    PB      
+   K  HR       PB      
+     W      U  PB      
+     W    *    PB      
+     W    *    PB      
+          *            
+          *            
+   K  HR  *    PB      
+          *            
+   K  HR  *    PB      
+          *            
+   K  HR       PB      
+          *            
+    P  R  *    PB      
+    P  R  *    PB      
+ S K           P       
+ S     R  *    P       
+ S     R  *    P       
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+    PW            G    
+ S K           P       
+          * U          
+    PW    *            
+   K   R  *            
+     W    *            
+         O    R   G    
+          *            
+         O*   R   G    
+          *            
+         O*            
+       R  *            
+  TKPW    *            
+ S K           P       
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+   K   R  *            
+     W    *            
+    PWHR O        G    
+          *            
+  TK             L  S  
+    PWHR O        G    
+      H        PB      
+         O E  RPB      
+ S             P       
+          *            
+ S        *  F         
+ ST P H         B      
+ ST P H         B      
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+ ST P H   *            
+   K   R  *            
+ S K W    *            
+   K W             T   
+   KP   A *            
+  T P H     U          
+   KP H    E   PB  T   
+  T P           B G    
+ S K           P       
+ ST P H       R        
+ ST P H       R        
+ ST P H       R        
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+    PW    *            
+   K   R  *            
+     W    *            
+   KP   A *            
+            U          
+  TKPW   O         T   
+        A  EU          
+  T P H     U          
+   KP H    E   PB  T   
+ S        *  F         
+   K W    *      L     
+ S K             L     
+ ST P H         B      
+ ST P H         B      
+       R      R        
+  T P         R        
+              R        
+              R        
+              R        
+              R        
+          *            
+          *            
+          *            
+          *            
+          *            
+          *            
+  T P     *       G    
+ ST P H         B      
+ ST P H         B      
+ ST P H       R        
+  TK      *            
+  TK      *            
+ ST P H         B      
+ ST P H         B      
+    P     *            
+          *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+   K   R  *            
+     W    *            
+  T      O             
+          *            
+  TK             L  S  
+  T      O*            
+          *            
+  TK             L  S  
+  T      O             
+ S K           P       
+ ST P H       R        
+ ST P H   *            
+   K   R  *            
+     W    *            
+  T P  R O     P L     
+          *            
+  T P  R O     P L     
+  TK         F P    S  
+ S        *  F         
+ S K             L     
+ ST P H         B      
+ ST P H         B      
+       R      R        
+  T P     *       G    
+ ST P H         B      
+   K W R  *            
+   K W R  *            
+    P     *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+     W    *            
+   K W    *      L     
+   K W           L     
+ S K             L     
+   K W    *            
+          *            
+  T P     *            
+          *            
+  T P     *       G    
+ ST P H       R        
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H           G    
+ ST P H         B      
+  TK      *            
+  TK      *            
+  TK      *            
+     W    *            
+     W    *            
+     W    *            
+          * U          
+     W    *            
+     W    *            
+     W    *            
+  TK      *            
+    PW    *            
+          *EU          
+  T P  R         L     
+          *            
+  T P  R O     P L     
+  TK         F P    S  
+ S        *  F         
+     W    *            
+     W    *            
+     W    *            
+   K   R  *            
+     W    *            
+   K   R  *            
+         O*            
+    P H   *            
+ S        *  F         
+ S K             L     
+ ST P H         B      
+ ST P H         B      
+       R      R        
+    PW      U   BL   D 
+          *            
+    PW      U  PBL   D 
+      HRAO      B G    
+          *            
+      HR O    R B G    
+          *            
+      HR O      B G    
+        A            D 
+    P HR O    RP L     
+      HR O EU  PB G S  
+       R      R        
+  TKPW     EU      T   
+        A            D 
+        A            D 
+  TKPW     EU      T   
+   KP H    E   PB  T   
+    P H    E   PBLG    
+          *            
+          *            
+   KP H    EU      T   
+    P H    E   PBLG    
+   KP   A *            
+  T P      EUFR    T   
+   KP H    EU      T   
+       R      R        
+      H    E  R B G    
+   K   RA  E       T   
+       R      R        
+  TKPW     EU      T   
+    P       U R B      
+      H    E  R B G    
+    P H A  EU  PB      
+       R      R        
+       R   E  R B G    
+          *            
+      H    E  R B G    
+       R    U  PB      
+       RA  EU   B G    
+  TK            B      
+      H AO EU     G    
+          *            
+    P H AO EU     G    
+       R      R        
+      H    E  R B G    
+        A            D 
+       R   E         D 
+           EU       S  
+          *            
+          *            
+       R   E           
+  TK       EU       S  
+       R      R        
+      H    E  R B G    
+         O E   P       
+       R      R        
+  T P     *            
+ S K           P       
+  TKPW         P L     
+ STKPW         P L     
+ STKPW         P L     
+ STKPW         P L     
+ STKPW         P L     
+ STKPW         P L     
+  T P     *            
+ S        *            
+  T P     *            
+        A *            
+   KP   A *            
+  T   H                
+                    S  
+          *            
+                    S  
+          *            
+ S                     
+                   T   
+  T P      EUFR    T   
+    P    O E F     T   
+  T P           B G    
+  T     A *     B      
+   KP   A *            
+  T   H             S  
+                   T   
+  T        EUFR    T   
+          *            
+  T P      EUFR    T   
+    P    O E F     T   
+   K    A   U  PB  T   
+  T P           B G    
+ S K           P       
+  TK      *            
+  T P     *            
+ S        *            
+ S        *            
+  T P     *            
+        A *            
+   KP   A *            
+  T   H             S  
+                   T   
+  T        EUFR    T   
+          *            
+  T P      EUFR    T   
+   KP H    E   PB  T   
+  T P           B G    
+ S K           P       
+  T P     *            
+  TK      *            
+   KP     *EU          
+  T P H   * U      T   
+    P   A *  F     T   
+       R      R        
+   KP   A *            
+  T   H             S  
+                   T   
+ S         E    B G  D 
+   KP H    E   PB  T   
+  T P           B G    
+ S K           P       
+  T P     *            
+  TK      *            

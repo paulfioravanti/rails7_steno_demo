@@ -1,0 +1,1598 @@
+Pre-flight checklist:
+
+- log into heroku CLI (heroku login)
+- open Chrome private browser
+- open https://github.com/kevquirk/simple.css/wiki/Getting-Started-With-Simple.css (200% zoom)
+- open https://github.com/basecamp/local_time (200% zoom)
+- clear browser history
+- have Rails logo file in a folder ready to use in a
+  Finder window off screen
+- refresh Ctrl-P cache (F5)
+- destroy previous demo app databases (rails db:drop)
+- Press * to reset Plover layout display
+- reset steno tape and configure tape window to have
+  7 lines visible and be in "paper mode", with 36pt
+  font size, Lucida Grande font
+- clear terminal window
+- cd into the `rails` directory
+- set iTerm profile to be Demo Mode
+
+---
+
+- Welcome to Ruby on Rails, the steno demo!
+- we're going to follow the same journey that David
+  Heinemeier Hansson took us on in his Rails version 7
+  demo, showing you how to get started with the Rails
+  framework, build a blog application, and then deploy to
+  production
+- but we'll be doing the building using a stenographic
+  keyboard, the Georgi here, and Plover, an open source
+  stenography engine.
+- Stenography isn't just useful in courtrooms, but can be
+  used for any kind of text entry, even during software
+  development: in your text editor (including modal ones
+  like vim), the terminal, your browser, and even
+  controlling your computer.
+- So, let's started building with steno!
+
+- First we're going to start by creating a new rails
+  application from the command line
+
+```
+rails new demo
+```
+
+- this will generate the skeleton of the application,
+  including a bunch of structured directories and files
+  to help kick start our application, as well as install
+  all of the dependencies that Rails uses by default
+
+```
+cd demo
+```
+
+- I tend to do all my coding in a terminal, so I will
+  leverage a program called tmux to let me switch between
+  all the programs we'll be using moving forward
+
+```
+tmux new
+```
+
+- Now that we have our blank slate application, it's time
+  to add some customisation.
+- We're going to build a blog, so let's create the
+  definition for a post, called a model
+- and we'll get help from Rails' generators to
+  automatically create the file to help us interact with
+  it, called the controller, and the files to help us
+  display them, called the views.
+
+```
+rails generate scaffold post title:string content:text
+```
+
+- let's take a closer look at what's been created
+- first, we'll have a look at the migration, which sets up
+  the database table
+
+<open create posts migration>
+
+- as per our instructions in the generate command, we can
+  see that the migration plan says that we want to create
+  a posts table in the database, with each post
+  containing a string title, and a text field content.
+- by default, Rails also populates each table with a set
+  of time stamps, which is short hand for creating two
+  date time fields for the created at and updated at
+- note that at this point the table hasn't been created
+  yet: this migration file is currently just our plan to
+  create the table. We need to actually run this migration
+  to do that, which we'll do soon
+
+<open posts model>
+
+- before that, though, let's have a quick look at the
+  model, which encapsulates each of the database rows.
+  It's empty now, but we'll add more to it soon
+
+<open posts controller>
+
+- posts are interacted with in the posts controller, and
+  Rails has auto created all the actions needed here to
+  interface with a post, so it is here where we write the
+  code to create, read, update, and delete posts, also
+  known as CRUD actions
+- if the action involves displaying a post in any way,
+  Rails has auto generated view files for the action in
+  the form of mark up templates
+
+<open posts index file>
+
+- so, for the index action, we have an index view that
+  contains the mark up needed to show a list of all the
+  posts
+
+- now that we've had an overview of what rails generates
+  for us, let's get back to the command line so we can run
+  our migration file to set up the posts table in the
+  database
+
+```
+bin/rails db:migrate
+```
+
+- let's now just have a quick look at the database schema
+  that's been generated for us
+
+<open schema file>
+
+- you can see it now has the post table created in there,
+  so we're ready to go to start filling it with posts.
+  So, let's start up our server and do just that
+
+<open new tmux window>
+```
+bin/rails server
+```
+
+<open localhost>
+
+- here's the homepage that Rails provides by default,
+  showing what version of ruby and rails we're using
+- but we want to go and see where our posts live, so let's
+  go and see what that index view template we saw earlier
+  looks like in the browser
+
+<localhost:3000/posts>
+<zoom if necessary>
+
+- looks-wise it's very bare bones, but we've got the pages
+  needed to be able to start populating our database with
+  posts, so let's create one now
+
+<use vimium>
+<title: Hello world! content: First post!>
+
+- when we press the create post button, it will go to the
+  create action to put the post in the database, and then
+  redirect to the show action
+
+<ensure redirected to show posts page>
+
+- so here is the post detail page
+- and we can go back to where we were on the index page
+  and see that new post in now in our list of posts
+
+- by default, the views do not show us any information
+  about the timestamps that were added in the post
+  migration, but that does not prevent us from adding
+  it in ourselves
+
+<open _post partial>
+
+- let's say we wanted to show the time when the post
+  was created, we could do that under the title
+
+```
+<p>
+  [SW*strong]
+  <strong>Posted:</strong>
+  [time tag]
+  <%= time_tag post.created_at %>
+</p>
+```
+
+- the time tag method will generate an html time tag,
+  and now if we refresh the page, we can see that we
+  have the posted time displayed
+
+- before we continue any further, though, let's make at
+  least some effort to get these pages looking at least a
+  bit nicer, which we'll do by leveraging the simple CSS
+  framework
+
+<open https://github.com/kevquirk/simple.css/wiki/Getting-Started-With-Simple.css>
+
+- we'll copy the CDN hosted version of its stylesheet
+
+<copy simple.min.css" line>
+
+- and paste it in the default layout that all views are rendered within
+
+<open application.html.erb>
+<paste under style sheet link tag>
+
+- let's have a look to see if that improved things
+
+<click show post, then "back to posts">
+
+- and it sure did
+
+- okay so, now we have our CRUD actions for a resource,
+  not just for displaying html, but also for a JSON API
+- if we go to the URL and change the extension from html
+  to JSON, you'll see the entire collection of posts
+
+<address bar, end of URL, dot, json>
+
+- there's currently only one in the collection, but this
+  represents a data source that could be exposed as a
+  public API or be consumed by a single page application
+
+<go to posts controller>
+
+- if there is any special handling that needs to happen on
+  a per request type basis, so between html or json here,
+  this is configured in the controller
+- you can see here for the create posts action, what
+  happens after a new post is created defends on the
+  format of the request: we redirect to a post
+  successfully created page for a html, and return a
+  success object for a json request
+
+- from here, let's open the model file
+
+<open posts model>
+
+- and start developing our domain model by adding some
+  validations to posts to make sure they contain all the
+  information we want before we save them to
+  the database
+- we do this by adding the line
+
+```
+[validates presence of]
+validates_presence_of :title
+```
+
+- and now, if we go to attempt to make a new post without
+  a title:
+
+<go to new posts page>
+<put nothing in the title>
+<put "Missing title!" in the content>
+<press the create post button>
+
+- we get an error that simply says that the post cannot be
+  saved because the title can't be blank
+- that error is generated by the form
+
+<open _form.erb>
+
+- that lives under app views posts form
+
+<open file in nerd tree>
+
+- and you can see here in the markup that it says if there
+  were any errors while saving the post, to display them
+  all inline here
+
+- The generation of those errors can be traced back to the
+  controller
+
+<open posts controller>
+<go to create action>
+
+- when we press the create post button and submit the
+  form, it hits the create action, where we attempt to
+  save the post
+- if the post is valid and we can save it, we redirect
+  back to the show posts page with a success message
+- if the post is invalid and we cannot save it, we render
+  the new action again with a status of unprocessable
+  entity, showing the posts error messages on the screen
+
+<go back to the _form>
+
+- now making an invalid post is an error any user could
+  make, but what it's the programmer that makes the
+  mistake?
+- say we make a typo here in the post variable, what
+  happens then?
+
+<change post variable to postx>
+
+- now, if we go back and reload the page:
+
+<refresh browser>
+
+- we get this error screen which shows us the exception
+  being raised, the back trace where the error is coming
+  from, as well as a built in console that lets
+  you check and manipulate the variables that have been
+  assigned and are usable in the view
+
+<select console with mouse>
+<put vimium in insert mode>
+<type post in console and press return>
+
+- this console is something that is also available as a command-line tool
+
+<open new tmux window>
+
+- we can jump in here and start a brand-new console with
+  the rails console command
+
+<rails console>
+
+- and we can directly interact with the main model that we've been building up
+
+```
+Post.first
+```
+
+- if we type in Post.first, we'll get returned back the
+  post that we created just before in the browser
+- but, we can also create posts from the console,
+  so if we type in:
+
+```
+Post.create(title: "From the console", content: "Nice!")
+```
+
+- We'll see from the output that we've started a database
+  transaction to insert that post into the posts table,
+  and we now have 2 posts in the database, and we can
+  confirm that by querying the posts table by using:
+
+```
+Post.all
+```
+
+- And you can see that we get returned the entire
+  collection of posts in the database
+- if we want to return just some of the posts depending
+  on some condition, we can make queries as well
+
+```
+Post.where(created_at: Time.now.all_day)
+```
+
+- we can see the same two posts since we've only just
+  created them
+- and if we change the time scope to be yesterday, rather
+  than today:
+
+```
+Post.where(created_at: Time.now.yesterday.all_day)
+```
+
+- you can see that we get returned an empty array since
+  all our posts were created today
+
+- we've been using the ActiveRecord interface to do our
+  queries so far, but if we want to dig a bit deeper and
+  see what kind of database SQL query that generated,
+  we can just add .to_sql to the end of the query:
+
+```
+Post.where(created_at: Time.now.yesterday.all_day).to_sql
+```
+**Ctrl-C if accidentally put console in background**
+
+- okay, let's pull ourselves up from the database depths,
+  and switch gears back to the user interface.
+
+<move back to application tmux window>
+<open command line>
+
+- our blog currently only allows us to put plain text into
+  the content of a post, which is a bit boring, so let's
+  allow rich formatting to be added using one of Rails 7's
+  newest features, ActionText.
+- ActionText allows for what you see is what you get
+  editing for text, and we install it with the following
+  command:
+
+<type "clear" to clear command line>
+```
+[rails action text install]
+rails action_text:install
+```
+
+- this command will add some JavaScript, and CSS for the
+  new rich text editor, some migrations to enable
+  uploading and storage of files using active storage,
+  and some gems for image processing to allow them to be
+  responsive and show smaller versions for mobile screens
+  etc.
+- for this blog, we'll be storing files locally, but in
+  production we'd use a cloud storage platform like Amazon
+  AWS or Google cloud.
+- since action text adds some new gems to install, before
+  we continue, let's run bundle:
+
+```
+bundle
+```
+
+- and then run those migrations
+
+```
+[rails db migrate]
+rails db:migrate
+```
+
+- now, we have to set up our posts model to say we are
+  going to use ActionText, so let's open that up again
+
+<open post model>
+
+- and we want to give the post's content field the rich
+  text abilities, so similar to the validations, we'll add
+  the following statement that:
+
+
+```
+[has rich text]
+has_rich_text :content
+```
+
+- from here, if we jump over to the form...
+
+<open post form>
+
+- instead of the post having a basic text area, we change
+  it to be a rich text area
+
+```
+<%= form.rich_text_area :content %>
+```
+
+- while we're at it, I can see that we've left that
+  developer typo in there, so let's quickly fix that as
+  well
+
+<change postx to post>
+
+- we'll now go back and restart the server since we added
+  a new gem
+
+<restart server>
+
+- and go back to our new post page and see what it looks
+  like now
+- you can see that we've got a full editor built in now
+
+<new post>
+[*URP for upper]
+<title: This is RICH!>
+<content: We can use rich text!>
+
+- and we can use various forms of mark up
+
+[SHRD select word]
+<bold "use" and italicize "rich">
+
+- and we can also do inline file uploads that can be
+  dragged and dropped directly into the field
+
+<drag rails logo image into the field>
+
+- the file will be uploaded in the background by
+  activestorage to either your local machine, like we're
+  doing here in development, or your cloud provider of
+  choice in production
+- before we save, let's just give the image a proper name
+
+<click logo caption>
+<Rails logo>
+<press create post>
+
+- okay, so now we have a new post with an image attached
+- if we go back to the list of posts
+
+<click back to posts>
+
+- we can see all the rich content displaying as we expect
+
+- One issue that we do have, though, is that it seems like
+  the content in our previous posts are not displaying.
+  This is because we've changed the data type of a post's
+  content from a simple text field to rich text, which is
+  a more complex object.
+- We can go and fix this, by doing a data migration in the
+  console
+
+<go back to console>
+
+- First we're going to include a TextHelper module that
+  will give us access to a method called simple_format
+  which transforms text into HTML
+
+```
+<KPH*EL set camel case on>
+include ActionView::Helpers::TextHelper
+<RFT reset case>
+```
+
+- Then, we're going to find the first post
+- and update the content field with the HTML-transformed
+  version of what was there in the first place
+
+```
+post = Post.find(1)
+post.update(:content,
+            simple_format(post.read_attribute(:content)))
+```
+
+- and, we'll do the same thing for the second post in the
+  system, and that'll be all we do for data migration
+
+```
+post = Post.find(2)
+post.update(:content,
+            simple_format(post.read_attribute(:content)))
+```
+
+<go back to posts index page in browser>
+
+- And we can see that we're displaying content again, and
+  can move right along
+
+- let's have a look at the JavaScript that sets all this
+  up
+
+<open importmap.rb>
+
+- Rails 7, by default, uses something called import maps,
+  which allows us to use advanced JavaScript without
+  having node.js installed on our system
+- we're just using Ecmascript modules to serve JavaScript
+  as text through the browser
+- the npm packages that we want to use are specified, kind
+  of like a gem file, in an import map file
+
+- all the packages that Rails ships with are up the top
+  here, like Hotwire, which is turned on by default,
+  meaning the Turbo and Stimulus frameworks are set up
+  and ready to be used
+- when we ran the action text install task, it added the
+  two entries you can see on the end of the file here:
+  the trix and action text pins
+
+<open application.js>
+
+- over in application.js, you can see that trix and action
+  text get imported and that's what makes them available
+  in the application
+
+- so, what happens when we want to use some other packages
+  from npm?
+- let's say we want to make that created_at timestamp we
+  added to the posts a bit more human readable
+
+<open posts index>
+
+- rather than the straight timestamps, we'll have them
+  display relative time: created 1 minute ago or created
+  3 hours ago
+- the local time npm package fits that bill, so the way we
+  add that to the system is to run
+
+<importmap pin local-time>
+
+- and this will fetch the package off npm, figure out
+  which URL it should use based off the default content
+  delivery network, or CDN, which in this case is
+  <jspm>
+- we'll look into how to downloading a local version of
+  the package in a bit, but for now we'll just depend on
+  the CDN
+
+<open importmap>
+
+- back in the import map, you can see that an entry has
+  been added for local time pointing at the CDN
+
+<open application.js>
+
+- and now we can import and start using it as part of our application
+
+```
+[import default]
+import LocalTime from "local-time"
+LocalTime.start()
+```
+
+- local time is now ready to use, so let's open up the
+  post partial and add a new bit of mark up that uses it
+
+<open post partial>
+
+```
+<p>
+  Posted <%= time_tag post.created_at, "data-local": "time-ago" %>
+</p>
+```
+
+- in the time tag method, we'll pass in time ago as a data
+  property, which will convert the time from UTC time into
+  human readable relative time in the browser
+- so, let's go and see what changed
+
+<open posts page, refresh>
+
+- and we can see that the display of the time has changed
+- so we're able to take advantage of npm packages without
+  having to npm install or installing node locally. It's
+  all running off an API provided by the CDN
+- however, if you want a local copy and not use the CDN
+  dependency, we can do that as well by tweaking the
+  import map command we originally used
+
+<open console>
+[PRO*RT/PHA*P, pin local-time TKHR*]
+<bin/importmap pin local-time --download>
+
+- we add a download flag to the command and you can see it
+  downloads the package into the rails application's
+  vendor directory, and when we jump back into the
+  import map file
+
+<open importmap.rb>
+
+- we can see the pin mapping has changed, and we get a
+  comment there saying which version of the package we're
+  pinned to
+- and if we jump back to the browser
+
+<open posts page>
+
+- we can see that everything continues to work as expected
+
+- so taking stock of what we have so far, our blog has
+  posts, with rich content and localised time
+- but let's add comments to the blog as an example of
+  showing how we can build relationships between models,
+  in this case between posts and comments
+
+- let's go back to the terminal and use the rails
+  generators again
+
+<open terminal>
+
+- but rather than a scaffold like with posts, which
+  generated a whole bunch of code for us, let's go the
+  more manual route and specify a resource to generate,
+  which will let us just write custom code right off the
+  bat.
+
+```
+rails generate resource comment post:references
+```
+
+- the references creates a foreign key and dependency in
+  the model, so a comment will always be related to some
+  post and not exist on its own
+
+```
+rails generate resource comment post:references content:text
+```
+
+- and, like a post, a comment also has content, which
+  will be text
+
+<press return>
+
+- as you can see, like the time we created posts, there is
+  a migration present to create the comments table, so
+  let's take a quick look at that:
+
+<open create comments migration>
+
+- the first line under create table is to set up the
+  foreign key reference to the posts table, which is not
+  allowed to be null, and
+- by rails convention, in this case the field will be
+  called post_id, for the name of the table being
+  referenced
+- and of course, we have the content field which is of
+  type text
+
+<go back to command line>
+
+- so let's run this migration
+
+```
+[rails db migrate]
+rails db:migrate
+```
+
+- okay, so now the comments table exists, but how do we
+  hook posts and comments together in the application?
+- we do this in the model, so let's first open up posts
+  again:
+
+<open posts model>
+
+- and here, we need to tell the post that it can have many
+  comments related to it, so we do this by simply adding
+
+```
+[has many]
+has_many :comments
+```
+
+- and the flip side to this is opening up the new comment
+  model
+
+<open comment model>
+
+- and we can see here that due to the post:references
+  field we added in the migration, Rails has put in a
+  `belongs_to :post` in the model for us
+- now that we've got those two models hooked up via code,
+  let's have a look at that relationship in the rails
+  console:
+
+<open rails console>
+
+```
+reload!
+```
+
+- we'll find the first post
+
+```
+post = Post.first
+```
+
+- and that model relationship we just created from
+  post to comments provides us with some convenience
+  methods we can use. So to see how many comments
+  this post has, we type:
+
+```
+post.comments
+```
+
+- which, unsurprisingly, gives us back an empty array
+  since no posts have comments yet, so let's create
+  one now
+
+```
+post.comments.create!(content: "First comment!")
+```
+
+- and that's our first comment created in the system. If
+  we ask the post about its comments now, we get back a
+  collection containing that comment:
+
+```
+post.comments
+```
+
+- and if we grab that first comment
+
+```
+comment = post.comments.first
+```
+
+- and ask it what its post relationship is
+
+```
+comment.post
+```
+
+- we get that original post, so we can confirm that posts
+  and comments are all hooked up bidirectionally in the
+  application.
+
+- so, this is all well and good, but there's currently no
+  way for our users to interact with comments on the web
+  UI, so let's go and allow them to
+- first, let's open up the post show template, and right
+  under where we render the post, let's also render its
+  comments
+
+<open post show template>
+
+- we'll do this using a named partial that we'll
+  create called posts/comments
+
+[render partial instance]
+```
+<%= render "posts/comments", post: @post %>
+```
+
+- and we'll give that partial a local variable called post
+  which we'll set to be the value of the instance variable
+  @post
+
+- The comments partial does not exist yet,
+  so let's create it
+
+<open NERDTree>
+<may need to fingerspell "r" to refresh directory>
+<fingerspell "m" under app/views/posts>
+<create posts/comments partial via nerd tree>
+<_comments.html.erb>
+
+```
+[heading 2]
+<h2>Comments</h2>
+
+[div]
+<div id="comments">
+  [render var]
+  <%= render post.comments %>
+  [erb comment, render partial collection]
+  <%# render partial: "comments/comment", collection: post.comments %>
+</div>
+
+[render partial var]
+<%= render "comments/new", post: post %>
+```
+
+- in the comments partial, we'll render a post's comments
+- this statement is short hand for rendering a partial
+  called comment under the comments view directory for
+  every comment that a post has
+- and at the end, we render partial to input a new comment
+
+- these partials don't exist yet either, so let's go and
+  create them
+- first, the comment partial under the comments view
+  directory
+
+<create new comments/_comment.html.erb file>
+```
+[div, dom id]
+<div id="<%= dom_id comment %>">
+  [erb exec]
+  <%= comment.content %>
+  [time tag]
+  - <%= time_tag comment.created_at, "data-local": "time-ago" %>
+</div>
+```
+
+- we'll create a div with an id containing the dom id of
+  the comment which we'll use soon for some more fancy
+  live updating of comments a bit later
+- we want to show the comment content
+- and just like the posts, we'll show the dynamic time of
+  the comment's created at time stamp
+
+- next, we need to create a partial for the new form
+
+<create new comments/new file>
+```
+[form with associated model]
+<%= form_with model: [post, Comment.new] do |form| %>
+  [PWR* <br />]
+  Your comment:<br />
+  [form text area]
+  <%= form.text_area :content, size: "20x5" %>
+  <%= form.submit %>
+<% end %>
+```
+
+- here, we will use the form with helper method (form with
+  associated model), passing in the local post variable,
+  that we want the new comment to attach to
+- within the form, we just define a text area for the
+  comment's content information
+- and finally, add in a submit button for the form
+
+- while we're at it, let's go back to the partial for the
+  post itself, and put in a counter to show how many
+  comments a post has
+
+<place under content>
+```
+[p, strong, pluralize]
+<p>
+  <strong><%= pluralize post.comments.count, "comment" %></strong>
+</p>
+```
+
+- pluralize is a helper that will show the correct grammar
+  for pluralization of a word, so we'll get 0 comments,
+  1 comment, 2 comments, rather than the same word for
+  every number
+
+- now that we know how we want to display comments, we now
+  need to work our way back to the controller to tell
+  rails what we want to do during the comment creation
+  process
+
+<open comments controller>
+
+- since we generated a resource on the command-line and
+  not a scaffold like with posts, rails provides us with
+  a controller file, but its an empty shell that we need
+  to fill out ourselves
+- so we're going to need a create action, so let's write
+  that
+
+```
+[controller class]
+class CommentsController < ApplicationController
+  - before any of the actions are run, we'll create a
+    callback method called set post
+  - this will grab the post we want to add a comment to
+    from the database based on the post_id that gets
+    submitted in the comment form you saw earlier, and
+    assigns it to a post instance variable
+  before_action :set_post
+
+  [def]
+  def create
+    @post.comments.create!(comment_params)
+    [redirect instance]
+    redirect_to @post
+  end
+
+  private
+
+  def set_post
+    @post = Post.find(params[:post_id])
+  end
+
+- we use the require method to reduce the scope of the
+  params to focus just on the ones that are under the
+  comment key, and then use the permit method to
+  filter down the comment params to just the ones we want
+  to allow to populate a comment, in this case the
+  content field
+- we do this to make sure no unwanted params sneak through
+  and potentially corrupt our comments or other parts of
+  the system, so this is one of Rails's security features
+  def comment_params
+    params.require(:comment).permit(:content)
+  end
+end
+```
+
+```
+[def]
+def create
+  @post.comments.create!(comment_params)
+  [redirect instance]
+  redirect_to @post
+end
+```
+- we then create a new comment on the post, using a set
+  of comment params that we'll use to populate a new
+  comment
+
+- once the comment is created, we redirect back to the
+  post's show page
+
+- now, before we see how that's all turned out, we need to
+  quickly go to our routes config
+
+<open routes>
+
+- this is because when we generated the comments resource,
+  a route was created for us for comments assuming we'd be
+  using them independent of any other resource in the
+  system, but for comments, they are dependent on posts:
+  without a post there are no comments
+- so, we have to have the comment routes reflect this by
+  nesting them under the post routes
+
+```
+resources :posts do
+  resources :comments
+end
+```
+
+- While we're here, we'll just also set the root path of
+  the application to be the posts index page
+- So, even if we forget to put the posts path in, rather
+  than seeing Rails' default welcome page, we'll see our
+  posts
+
+```
+[KPH-PBT uncomment, KR*/W* change word]
+root "posts#index"
+```
+
+- This above is just shorthand for saying send me to the
+  index action of the posts controller
+
+<open posts page in browser>
+
+- so, if we now go to the rich text post's show page,
+  we can see that this post has 0 comments now, and
+  we have our comment form, waiting for us to put in
+  a comment, so...
+
+<input: Let's do one comment!>
+<press create comment>
+
+- and we can see that a comment has been created and
+  displays for us here
+
+<go back to server output window>
+[KPHO*ED] [navigate P-PBLG P*PBLG]
+- if we go back to the server and have a look at the
+  output, we can see that submitting the comment form
+  ran a post request against the posts/x/comments
+  nested route we created
+- it submitted a bunch of parameters with the form,
+  including an authenticity token to make sure the
+  request is valid
+- this token is secret information so Rails filters it
+  from the log by default
+- and you can see the submitted parameters here: the
+  comment scope that we required, and the content param
+  that we permitted
+- then you can see a back trace of what methods were
+  called during the submission: we set the post first
+  in the callback, call the create method, and then
+  redirect off to the show post URL for post number x,
+  and that gets rendered
+[KW* quit out of navigating]
+
+- so, we can create posts and those posts can have
+  comments, but if you wrote a post and someone
+  commented on it, you'd want to know about it, right?
+  Wouldn't you like to get an email about that?
+  Sure you would!
+- so, let's use another rails generator to enable us to do
+  just that
+
+<open terminal>
+
+- we're going to create a comments mailer that will have
+  one action on it that we'll call submitted
+
+```
+rails generate mailer comments submitted
+```
+
+- you can see here that the amount of files generated here
+  is much less that what we've seen before
+- there's no migrations since we're not adding anything to
+  the database, there's just the mailer files where we
+  set up the information for the email, like a controller,
+  and then the mail view template files that determine
+  what the content of the email that gets sent out looks
+  like
+
+<open comments mailer file>
+
+- first thing we'll edit is the comments mailer, and in
+  the submitted method stub that's been generated for us,
+  we're going to:
+
+```
+- have the submitted method receive a comment object
+def submitted(comment)
+  - assign it to an instance variable so it's
+    accessible in the views
+  @comment = comment
+
+  - then we want to change the mail to address to be
+    the blog-owner
+  - and set the subject line to be "New comment!"
+  mail to: "blog-owner@example.com", subject: "New comment!"
+end
+```
+
+- now, we can edit the view templates for the mailer to
+  customise the content of the email that gets sent out.
+- First, we'll do the template for html emails:
+
+<open submitted html>
+
+```
+[heading 1, erb exec]
+<h1>You got a new comment on <%= @comment.post.title %></h1>
+[render instance]
+<%= render @comment %>
+```
+
+- You can see that even in the mailer, by using render
+  comment, we're reusing the web view partial template
+  for a comment that we created earlier
+- in this way, we can put view logic in a single place and
+  have it reused in many places around the application,
+  leading us to need less code overall
+
+- now that we've written the html email, let's write up
+  what the plain text version should look like for
+  non-HTML mail clients
+
+<open submitted text>
+
+```
+[erb exec]
+You got a new comment on <%= @comment.post.title %>:
+
+[erb exec]
+<%= @comment.content %>
+```
+
+- now that we have both versions of the email done, rails
+  has an email preview feature that allows us to see
+  what the sent email will look like, so let's check
+  it out
+
+<open comments mail preview>
+
+```
+def submitted
+  CommentsMailer.submitted(Comment.first)
+end
+```
+
+- we need to give the submitted preview an arbitrary
+  comment to render, so we'll just give it the first one
+  in the database
+- then, we jump to the URL specified above the method to
+  see what that looks like
+
+<jump to link>
+
+- this is what the HTML version looks like, and the plain
+  text version can be selected from this drop down menu
+- now we know that the mailer itself is working, let's
+  hook our comments controller up to it so that an
+  email gets sent out when a comment is made
+
+<open comments controller>
+
+```
+def create
+  - we'll take the comment that gets created here and
+    assign its return value to a local variable
+  comment = @post.comments.create!(comment_params)
+  - then we'll pass that comment into the mailer, and
+  call  deliver_later on it
+  CommentsMailer.submitted(comment).deliver_later
+  redirect_to @post
+end
+```
+
+- this will use an asynchronous job queue to send the
+  email in the background. So, the sending of the email
+  doesn't happen inline, which could potentially
+  stop us from redirecting back to the post as soon as
+  we're able, resulting in a more sluggish user experience
+
+- now, let's now make sure this all actually works by
+  creating a comment
+
+<open post show page>
+<comment content: Send a comment via email!>
+<click create comment>
+
+- now let's see whether the email has been sent by
+  checking the log
+
+<open server log>
+<scroll back>
+
+- you can see here that the email is being sent to the
+  blog owner
+- and it's rendering an html mime part and a text mime
+  part
+- and if you look further up, you can see that an
+  action mailer asynchronous delivery job was queued
+  up by the controller
+- in development, emails are sent using an in-process
+  thread pool, but for production, you'd want to use a
+  more robust queuing system like sidekiq or resque
+
+- okay, now that our blog can send email, let's make the
+  blog feel more live.
+- currently, if two people are looking at the same blog
+  post...
+
+<open post show page in 2 browsers side by side>
+<use Divvy to configure this>
+
+- ...and someone else creates a comment on a post
+  you're looking at, in order to see that comment, you'd
+  need to refresh the page.
+
+<create new comment on left screen: "Refresh to see this">
+
+- as you can see, the pages are now out of sync, but if I
+  refresh the page...
+
+<refresh page>
+
+- ...only now can I see the new comment.
+- So, what we want is to have those changes that could
+  happen at any time show up on the page
+  instantaneously without us having to reload the page
+- we can do this using the Turbo gem, which is a part of
+  Rails's Hotwire stack, which is all about pushing HTML
+  over the wire from the server to do partial browser page
+  updates, with the goal of making server-side rendered
+  pages as fast as single-page applications or SPAs.
+- Rails provides the ability to add this functionality to
+  our models in a fairly straightforward manner out of
+  the box, so let's give it a try
+- in our application.js
+
+<open application.js>
+
+- you can see we're all configured with hot-wire out of
+  the box, so we're going to start using it by setting up
+  a subscription to a turbo stream on the post
+  show action:
+
+<open post show view>
+<insert line at top of page>
+
+```
+[turbo stream from]
+<%= turbo_stream_from @post %>
+```
+
+- we use a method called turbo stream from, and pass in
+  the instance variable we want to get live updates of
+- so this opens up an exclusive stream where we are
+  listening out for comments that are added to a post
+- now, for every subscription that listens, there has to
+  be a broadcaster that sends out stuff to listen for
+- in this case, we want a comment to be broadcasting its
+  changes to the post it belongs to, so...
+
+<open comment model>
+
+- we open up the comment model and add the line
+
+```
+class Comment < ApplicationRecord
+  belongs_to :post
+  [broadcasts to]
+  broadcasts_to :post
+end
+```
+
+- broadcasts_to :post. This broadcasts comment create,
+  update, and destroy actions to the post
+- so, now that the streams are now hooked up, let's see
+  them in action
+
+<switch back to post pages in the browser>
+[R*ERBLT - Refresh all tabs]
+
+- so, one user posts a comment in their browser
+
+<comment: Is this a live comment?>
+
+- it sure is, as it showed up instantaneously in the other
+  user's browser
+- the update to the page got delivered via web sockets,
+  and it doesn't matter whether the comments are
+  created via a web page or, say the console
+
+<open rails console>
+<use Divvy to arrange console on the left>
+
+```
+Post.find(3).comments
+Post.find(3).comments.last
+Post.find(3).comments.last.destroy
+```
+
+- you can see that our action of destroying the last
+  comment in the console also broadcast out that message,
+  and the show post page got updated live in realtime
+- you can also see in the console the details of that
+  broadcast where it broadcasts this turbo stream
+  element where the action is to remove the comment,
+  and the target for that action is the comment with the
+  dom id of comment x
+
+- aside from deleting, like I mentioned before, comments
+  will also broadcast out when they are updated, so if we
+  take the last comment and update it's content
+
+```
+Post.find(x).comments.last
+Post.find(x).comments.last.update!(content: "Updated from console!")
+```
+
+- you can see that that update is sent out as well
+- so by default, creates, updates, and deletes are
+  broadcast, but you are of course able to customise
+  this to broadcast on other methods that you may add
+
+- okay, we've gone quite a long way with our blog without
+  touching one of the most important aspects of
+  application development: tests
+- so, let's at least give them a cursory look in
+- as we've been creating code with the rails generators,
+  they've also been creating some default test files for
+  us, which we can run with the command
+
+<open console, rails test>
+
+- we can see there's two failing tests here, so let's fix
+  these issues and get this test suite back to a passing
+  state
+- the first error is telling us that we've got a problem
+  when destroying posts, and that a foreign key constraint
+  has failed
+- that failed constraint has to do with the relationships
+  that posts have with comments, which we added after this
+  test was generated: if we delete a post, and that post
+  has comments associated with it, the post id that each
+  of those comments references, their foreign key to the
+  post, becomes invalid, and hence fails this test
+
+- we can fix this quickly by jumping back into the post
+  model
+
+<open post model>
+
+- and in our has_many comments relationship, we add the
+  condition of dependent destroy
+
+```
+class Post < ApplicationRecord
+  validates_presence_of :title
+  has_rich_text :content
+  has_many :comments, dependent: :destroy
+end
+```
+
+- which will make sure that all a post's comments also get
+  destroyed when a post is itself destroyed
+- so let's go back and see if that made the test pass:
+
+<open command line>
+<rails test>
+
+- and, it did, and we're down to one failing test
+- this error is related to the comments mailer and test
+  has a problem with the content of the email cause we
+  changed it after this test was generated, so
+  this should also be another straightforward fix
+
+<open comments mailer test>
+
+- the first thing we did with the submitted method was
+  have it accept a parameter containing a comment, so we
+  need to do that here as well
+- in the test, we essentially want to say given some
+  comment we can make some assertions, that for that
+  "some comment", we'll use a fixture, which are data
+  structures that provide default values for objects in
+  tests
+
+- Rails actually provides a default set of fixtures when
+  you generate a file, and they look like this:
+
+<open comments.yml in a horizontal split>
+
+- so where needed, you can customise these to your heart's
+  content, but we'll be able to use them as-is, and just
+  pass in the comments(:one) fixture to the submitted
+  method
+
+```
+class CommentsMailerTest < ActionMailer::TestCase
+  test "submitted" do
+    mail = CommentsMailer.submitted(comments(:one))
+    # ...
+  end
+end
+```
+
+- now we have to change the assertions in the test to
+  what we actually expect them to be
+- in our case, we changed the mail subject to be "New
+  comment!", and the mail to address to be
+  "blog-owner@example.com"
+
+```
+class CommentsMailerTest < ActionMailer::TestCase
+  test "submitted" do
+    mail = CommentsMailer.submitted(comments(:one))
+    assert_equal "New comment!", mail.subject
+    assert_equal ["blog-owner@example.com"], mail.to
+    assert_equal ["from@example.com"], mail.from
+    assert_match "You got a new comment", mail.body.encoded
+
+  end
+end
+```
+
+- so our test now should reflect reality, so let's see if
+  it does
+
+<open command line>
+<rails test>
+
+- and we're green: all tests pass on this new blog we've
+  created that creates posts with rich content, live
+  updates its comments, and sends emails
+- so for now, let's consider this blog feature complete,
+  and what we now want to do is get it into the hands of
+  other people by deploying it to production
+
+- to do that, we're going to use Heroku, since its a nice
+  developer-friendly way to get apps into production quick
+- Since heroku runs on a different platform to my local
+  machine (I'm on Mac, while heroku's machines run Linux),
+  I'll need to add their platform to the blog's Gemfile
+  like so:
+
+```
+bundle lock --add-platform x86_64-linux
+```
+
+- now, let's add everything to git version control so
+  we'll be able to push the application up to heroku
+
+```
+git add .
+git commit --message="First commit"
+heroku create
+git push heroku main
+```
+
+- and now, we have deployed the app to heroku, and been
+  assigned a URL of ...
+- before we go take a look at it, there's a couple of
+  things we still need to do.
+- the first is migrate the database, which we'll do by
+  running rails commands via heroku's CLI tool
+
+```
+[HERBG run rake db migrate]
+heroku run rake db:migrate
+```
+
+- now, we need to add Redis as an add on to our
+  application because redis is used by the turbo setup
+  to send live updates back and forth
+
+```
+[heroku add redis]
+heroku addons:create heroku-redis:hobby-dev
+```
+
+- now, everything should be setup, so let's go have a look
+  at the live app
+
+<open heroku page>
+
+- and, the app is live!
+- it's empty since it has it's own database, but we can
+  certainly add entries here
+
+<open new post page>
+
+- now, the only thing that won't work here yet is file
+  uploading as we don't have S3 or some other cloud
+  provider for file storage set up
+- but you can check out the rails documentation on how you
+  can get that configured up
+
+- for now, though, let's confirm that we can create this
+  post, and give it a comment
+
+<title: This is the first post!>
+<content: This is the first post content!>
+
+<comment content: The first comment!>
+
+- so we can see posts and comments seem to be working as
+  we expect, and finally, let's check those live
+  updates for comments
+
+<copy URL into other browser>
+<content: This is the second comment!>
+
+- and the live update works, so we have the application up
+  and running in production backed by a live setup that
+  uses redis!
+- and so that's our blog: we've gone from first lines of
+  code to a working app in production, and, most
+  importantly for this demo, we've done it all using
+  steno!
+- hopefully this demo has been able to demonstrate that
+  you can use steno even during software development.
+- if you'd like to give it a try or get more information
+  you can get started by going to the Open Steno Project
+  website where you will find links to download Plover,
+  as well as to other steno learning resources
+- and, you can get involved with the community by
+  joining the Plover discord
+- thanks very much, and good luck on your steno journey!
+
+---
+
+Editing layer stack
+
+1. terminal
+2. keyboard diagram
+3. steno tape
+4. georgi
+5. video
+
+---
+
+Video description content:
+
+My attempt at re-creating DHH's Rails 7 demo using
+Plover stenography on a Georgi keyboard.
+
+I am no expert at this, and it turns out that thinking,
+talking, and steno-ing at the same time is pretty hard.
+I made a few mistakes, but was able to eventually recover
+and finish the application.
+
+- Ruby on Rails:
+  https://rubyonrails.org/
+- DHH's original Rails 7 demo:
+  https://www.youtube.com/watch?v=mpWFrUwAN88
+
+Q&A:
+
+- Where can I get more information on Plover?
+  The Open Steno Project:
+  http://www.openstenoproject.org/
+- How can I learn Plover/stenography?
+  1. Start at the "Learning Resources" page on Plover's
+     GitHub repository:
+     https://github.com/openstenoproject/plover/wiki/Learning-Stenography
+  2. I have also written a few posts covering steno:
+     https://www.paulfioravanti.com/tags/#stenography
+  3. Join the Plover discord where there are plenty of
+     nice people to answer your questions:
+     https://discord.com/invite/0lQde43a6dGmAMp2
+- Where can I download Plover?
+  From its GitHub repository:
+  https://github.com/openstenoproject/plover/releases
+  (click on the Assets link at the bottom of the page
+  and download the version that's right for your
+  operating system)
+- Where can I get a Georgi?
+  From g Heavy Industries:
+  https://www.gboards.ca/product/georgi
+- Where did you get your Georgi case?
+  3D printed from a design available on Thingiverse:
+  https://www.thingiverse.com/thing:3622551
+  (I used the "deepest" version)
+- Is that a non-standard cable between the Georgi halves?
+  I got it from an Ebay seller. Search for 1/8" 4-Pole 3.5mm TRRS Plug
+- Do you have your application code/steno tape output/
+  demo script available anywhere?
+  Sure do. It's at the following Github repo:
+  https://github.com/paulfioravanti/rails7_steno_demo
+- You used a bunch of steno outlines that aren't in
+  Plover! How?
+  I've created a bunch of custom dictionaries with
+  entries that enabled me to do all sorts of fancy
+  things. You can find them here:
+  https://github.com/paulfioravanti/steno-dictionaries
+- How were you able to hold down keys between chords?
+  Custom firmware. You can find mine at this GitHub
+  repository, along with instructions on how to use it
+  on your own Georgi:
+  https://github.com/paulfioravanti/qmk_keymaps
+- How did you get Vim to generate code for you just by
+  typing some words?
+  I created and used a bunch of snippets using Ultisnips:
+  https://github.com/SirVer/ultisnips
+  You can find my snippets in my dotfiles:
+  https://github.com/paulfioravanti/dotfiles/tree/master/vim/UltiSnips
+- What were those letters on the browser that allowed
+  you to click links?
+  It's Vimium, a Chrome extension:
+  https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en
+- How did you get your JSON displaying all formatted?
+  It's JSON Formatter, a Chrome extension:
+  https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+
+- What software did you use to record and edit the demo?
+  Screenflow:
+  https://www.telestream.net/screenflow/
+
+Required video edits:
+- Fast forwarding footage
+- Callouts to blur some footage
+- Remove background noise? (siren)
