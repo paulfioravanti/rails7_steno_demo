@@ -10,8 +10,8 @@ Artefacts from the steno demo itself can be found in the [`demo/`][] directory.
 
 ## Dependencies
 
-[Ruby][] 3.1.1
-[Rails][] 7.0.2.2
+- [Ruby][] 3.1.1
+- [Rails][] 7.0.2.2
 
 ## Setup
 
