@@ -1520,10 +1520,15 @@ Video description content:
 My attempt at re-creating DHH's Rails 7 demo using
 Plover stenography on a Georgi keyboard.
 
-I am no expert at this, and it turns out that thinking,
-talking, and steno-ing at the same time is pretty hard.
-I made a few mistakes, but was able to eventually recover
-and finish the application.
+Everything was done in a single take in order to preserve
+an accurate keyboard stroke log (that rolling steno tape
+you see at the bottom right of the screen).
+
+I am no expert at this, and it shows by all the silly
+mistakes I made. It turns out that thinking, talking
+coherently, and steno-ing at the same time for two
+hours straight is pretty hard! But, I managed to
+finish the application in the end.
 
 - Ruby on Rails:
   https://rubyonrails.org/
