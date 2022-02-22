@@ -41,6 +41,6 @@ The application is currently deployed on [Heroku][] at the following address:
 [`demo/`]: ./demo
 [Heroku]: https://heroku.com/
 [Rails]: https://rubyonrails.org/
-[Rails 7: The Steno Demo]: #
+[Rails 7: The Steno Demo]: https://www.youtube.com/watch?v=7UuXIkHd2xM
 [Rails 7: The Demo]: https://www.youtube.com/watch?v=mpWFrUwAN88
 [Ruby]: https://www.ruby-lang.org/en/

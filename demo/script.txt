@@ -1527,7 +1527,7 @@ you see at the bottom right of the screen).
 I am no expert at this, and it shows by all the silly
 mistakes I made. It turns out that thinking, talking
 coherently, and steno-ing at the same time for two
-hours straight is pretty hard! But, I managed to
+hours straight is pretty tiring! But, I managed to
 finish the application in the end.
 
 - Ruby on Rails:
