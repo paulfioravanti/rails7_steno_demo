@@ -1517,85 +1517,63 @@ Editing layer stack
 
 Video description content:
 
-My attempt at re-creating DHH's Rails 7 demo using
-Plover stenography on a Georgi keyboard.
+This is my attempt at re-creating DHH's Rails 7 demo using Plover stenography on a Georgi keyboard.
 
-Everything was done in a single take in order to preserve
-an accurate keyboard stroke log (that rolling steno tape
-you see at the bottom right of the screen).
+Everything was done in a single take in order to preserve an accurate keyboard stroke log (that rolling steno tape you see at the bottom right of the screen).
 
-I am no expert at this, and it shows by all the silly
-mistakes I made. It turns out that thinking, talking
-coherently, and steno-ing at the same time for two
-hours straight is pretty tiring! But, I managed to
-finish the application in the end.
+I am no expert at this, and it shows by all the silly mistakes I made. It turns out that thinking, talking coherently, and steno-ing at the same time for two hours straight is pretty tiring! But, I managed to finish the application in the end.
 
-- Ruby on Rails:
-  https://rubyonrails.org/
-- DHH's original Rails 7 demo:
-  https://www.youtube.com/watch?v=mpWFrUwAN88
+- Ruby on Rails: https://rubyonrails.org/
+- DHH's original Rails 7: The Demo video: https://www.youtube.com/watch?v=mpWFrUwAN88
 
 Q&A:
 
 - Where can I get more information on Plover?
-  The Open Steno Project:
-  http://www.openstenoproject.org/
+The Open Steno Project: http://www.openstenoproject.org/
+
 - How can I learn Plover/stenography?
-  1. Start at the "Learning Resources" page on Plover's
-     GitHub repository:
-     https://github.com/openstenoproject/plover/wiki/Learning-Stenography
-  2. I have also written a few posts covering steno:
-     https://www.paulfioravanti.com/tags/#stenography
-  3. Join the Plover discord where there are plenty of
-     nice people to answer your questions:
-     https://discord.com/invite/0lQde43a6dGmAMp2
+1. Start at the "Learning Resources" page on Plover's GitHub repository:
+https://github.com/openstenoproject/plover/wiki/Learning-Stenography
+2. I have also written a few posts covering steno:
+https://www.paulfioravanti.com/tags/#stenography
+3. Join the Plover discord where there are plenty of nice people to answer your questions:
+https://www.paulfioravanti.com/tags/#stenography
+
 - Where can I download Plover?
-  From its GitHub repository:
-  https://github.com/openstenoproject/plover/releases
-  (click on the Assets link at the bottom of the page
-  and download the version that's right for your
-  operating system)
+From its GitHub repository: https://github.com/openstenoproject/plover/releases
+(click on the Assets link at the bottom of the page and download the version that's right for your operating system)
+
 - Where can I get a Georgi?
-  From g Heavy Industries:
-  https://www.gboards.ca/product/georgi
+From g Heavy Industries: https://www.gboards.ca/product/georgi
+
 - Where did you get your Georgi case?
-  3D printed from a design available on Thingiverse:
-  https://www.thingiverse.com/thing:3622551
-  (I used the "deepest" version)
+3D printed from a design available on Thingiverse: https://www.thingiverse.com/thing:3622551
+(I used the "deepest" version)
+
 - Is that a non-standard cable between the Georgi halves?
-  I got it from an Ebay seller. Search for 1/8" 4-Pole 3.5mm TRRS Plug
-- Do you have your application code/steno tape output/
-  demo script available anywhere?
-  Sure do. It's at the following Github repo:
-  https://github.com/paulfioravanti/rails7_steno_demo
-- You used a bunch of steno outlines that aren't in
-  Plover! How?
-  I've created a bunch of custom dictionaries with
-  entries that enabled me to do all sorts of fancy
-  things. You can find them here:
-  https://github.com/paulfioravanti/steno-dictionaries
+I got it from an Ebay seller. Search for 1/8" 4-Pole 3.5mm TRRS Plug
+
+- Do you have your application code/steno tape output/demo script available anywhere?
+Sure do. It's on Github: https://github.com/paulfioravanti/rails7_steno_demo
+
+- You used a bunch of steno outlines that aren't in Plover! How?
+I've created a bunch of custom dictionaries with entries that enabled me to do all sorts of fancy things. You can find them on Github: https://github.com/paulfioravanti/steno-dictionaries
+
 - How were you able to hold down keys between chords?
-  Custom firmware. You can find mine at this GitHub
-  repository, along with instructions on how to use it
-  on your own Georgi:
-  https://github.com/paulfioravanti/qmk_keymaps
-- How did you get Vim to generate code for you just by
-  typing some words?
-  I created and used a bunch of snippets using Ultisnips:
-  https://github.com/SirVer/ultisnips
-  You can find my snippets in my dotfiles:
-  https://github.com/paulfioravanti/dotfiles/tree/master/vim/UltiSnips
-- What were those letters on the browser that allowed
-  you to click links?
-  It's Vimium, a Chrome extension:
-  https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en
+Custom firmware. You can find mine at this GitHub repository, along with instructions on how to use it on your own Georgi: https://github.com/paulfioravanti/qmk_keymaps
+
+- How did you get Vim to generate code for you just by typing some words?
+I created and used a bunch of snippets using Ultisnips: https://github.com/SirVer/ultisnips
+You can find my snippets in my dotfiles: https://github.com/paulfioravanti/dotfiles/tree/master/vim/UltiSnips
+
+- What were those letters on the browser that allowed you to click links?
+It's Vimium, a Chrome extension.
+
 - How did you get your JSON displaying all formatted?
-  It's JSON Formatter, a Chrome extension:
-  https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+It's JSON Formatter, a Chrome extension:
 
 - What software did you use to record and edit the demo?
-  Screenflow:
-  https://www.telestream.net/screenflow/
+Screenflow: https://www.telestream.net/screenflow/
 
 Required video edits:
 - Fast forwarding footage
